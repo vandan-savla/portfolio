@@ -1,0 +1,63 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 4rem;
+  margin-left: 20%;
+  
+}
+
+/* left side styling */
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+.i-name > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 17px;
+  color: var(--black);
+  margin-top: 10px;
+}
+
+.i-button {
+  width: 7rem;
+  height: 3rem;
+}
+
+.i-icons {
+  margin-top: 0rem;
+  display: flex;
+  gap: 0.1rem;
+}
+
+.i-icons > * {
+  transform: scale(0.4);
+}
+
+.i-icons > *:hover {
+  cursor: pointer;
+
+}
+

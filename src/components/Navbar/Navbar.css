@@ -1,0 +1,48 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    top: 0;
+    font-family: sans-serif;
+    color: var(--black);
+}
+
+
+
+
+.n-right {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    font-weight: 400;
+
+}
+
+.n-list {
+    flex: 1;
+    
+}
+
+.n-list ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.n-list li:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.n-button {
+    flex: 2;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 480px) {
+    .n-list {
+        display: none;
+    }
+}

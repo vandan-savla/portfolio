@@ -1,0 +1,66 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 70vh;
+    width: fit-content;
+    position: relative;
+    margin: auto;
+ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+    color: var(--black);
+
+
+    
+}
+.project{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size:30px; 
+}
+
+.proj-card{
+    display: flex;
+    position: relative;
+   
+        
+}
+.first {
+    background: rgb(247, 236, 149);
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.second {
+    background: rgb(247, 236, 149);
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third {
+    background: rgb(247, 236, 149);
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.label {
+    position: relative;
+
+}
